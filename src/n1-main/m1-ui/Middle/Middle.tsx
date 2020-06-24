@@ -4,7 +4,7 @@ type OnPropsType = {
     title: string
 }
 
-const Header: React.FC<OnPropsType> = ({title}) => {
+const Middle: React.FC<OnPropsType> = ({title}) => {
 
     return (
         <div>
@@ -14,4 +14,4 @@ const Header: React.FC<OnPropsType> = ({title}) => {
 
 }
 
-export default Header;
+export default Middle;

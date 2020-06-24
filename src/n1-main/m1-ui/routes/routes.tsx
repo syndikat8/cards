@@ -1,4 +1,6 @@
 //Пути константами для Rout
-export let a = 10
+export const header = "/header"
+export const middle = "/middle"
+export const footer = "/footer"
 
 
