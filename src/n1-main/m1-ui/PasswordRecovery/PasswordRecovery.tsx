@@ -4,7 +4,7 @@ type OnPropsType = {
         title: string
 }
 
-const Footer: React.FC<OnPropsType> = ({title}) => {
+const PasswordRecovery: React.FC<OnPropsType> = ({title}) => {
 
     return (
         <div>
@@ -14,4 +14,4 @@ const Footer: React.FC<OnPropsType> = ({title}) => {
 
 }
 
-export default Footer;
+export default PasswordRecovery;
