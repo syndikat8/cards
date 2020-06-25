@@ -1,9 +1,13 @@
 import React from "react";
 import styles from './Button.module.css';
 
-const Button = () => {
+type OnPropsType = {
+    name: string
+}
 
-    return <button className={styles.button}>BET</button>
+const Button: React.FC<OnPropsType> = ({name}) => {
+
+    return <button className={styles.button}>{name}</button>
 
 }
 

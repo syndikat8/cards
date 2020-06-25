@@ -4,7 +4,7 @@ type OnPropsType = {
     title: string
 }
 
-const Middle: React.FC<OnPropsType> = ({title}) => {
+const Profile: React.FC<OnPropsType> = ({title}) => {
 
     return (
         <div>
@@ -14,4 +14,4 @@ const Middle: React.FC<OnPropsType> = ({title}) => {
 
 }
 
-export default Middle;
+export default Profile;
